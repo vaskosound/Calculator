@@ -1,0 +1,226 @@
+<!Doctype html>
+<html>
+<head>
+<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calcStyle.css">
+</head>
+<body>
+	<div id="calc">
+		<img src="calculator.jpg">
+		<span>Calculator</span>
+		<div class="close">
+			<table>
+				<tr>
+					<td>_</td>
+					<td>
+						<img src="maximize.gif">
+					</td>
+					<td class="red">X</td>
+				</tr>	
+			</table>
+		</div>
+		<div id="bord">
+			<div class="menu">
+				<ul>
+					<li>View</li>
+					<li>Edit</li>
+					<li>Help</li>
+				</ul>
+			</div>
+			<div class="display">
+				<p>8854455</p>
+			</div>
+			<div class="binary">
+				<table>
+					<tr>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+					</tr>
+					<tr>
+						<td colspan=4 class="num">63</td>
+						<td colspan=3 class="num">47</td>
+						<td class= "right">32</td>
+					</tr>
+					<tr>
+						<td>0000</td>
+						<td>0000</td>
+						<td>1000</td>
+						<td>0111</td>
+						<td>0001</td>
+						<td>1011</td>
+						<td>1011</td>
+						<td>0111</td>
+					</tr>
+					<tr>
+						<td colspan=4 class="num">31</td>
+						<td colspan=3 class="num">15</td>
+						<td class= "right">0</td>
+					</tr>
+				</table>
+			</div>
+			<div class="btn">
+				<table>
+					<tr>
+						<td rowspan=3>
+							<div class="notation">
+								<input type="radio" name="nttn">Hex<br />
+								<input type="radio" checked="checked" name="nttn">Dec<br />
+								<input type="radio" name="nttn">Oct<br />
+								<input type="radio" name="nttn">Bin
+							</div>
+						</td>
+						<td></td>
+						<td>
+							<a href="#">Mod</a>
+						</td>
+						<td>A</td>
+						<td>
+							<a href="#" class="current">MC</a>
+						</td>
+						<td>
+							<a href="#" class="current">MR</a>
+						</td>
+						<td>
+							<a href="#" class="current">MS</a>
+						</td>
+						<td>
+							<a href="#" class="current">M+</a>
+						</td>
+						<td>
+							<a href="#" class="current">M-</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">(</a>
+						</td>
+						<td>
+							<a href="#">)</a>
+						</td>
+						<td>B</td>
+						<td>
+							<a href="#" class="back">&#8592</a>
+						</td>
+						<td>
+							<a href="#">CE</a>
+						</td>
+						<td>
+							<a href="#">C</a>
+						</td>
+						<td>
+							<a href="#">&#177</a>
+						</td>
+						<td>
+							<a href="#" class="current">&#8730</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">RoL</a>
+						</td>
+						<td>
+							<a href="#">RoR</a>
+						</td>
+						<td>C</td>
+						<td>
+							<a href="#" class="numbers">7</a>
+						</td>
+						<td>
+							<a href="#" class="numbers">8</a>
+						</td>
+						<td>
+							<a href="#" class="numbers">9</a>
+						</td>
+						<td>
+							<a href="#">/</a>
+						</td>
+						<td>
+							<a href="#" class="current">%</a>
+						</td>
+					</tr>
+					<tr>
+						<td rowspan=3>
+							<div class="notation">
+								<input type="radio" checked="checked" name="word">Qword<br />
+								<input type="radio" name="word">Dword<br />
+								<input type="radio" name="word">Word<br />
+								<input type="radio" name="word">Byte
+							</div>
+						</td>
+						<td>
+							<a href="#">Or</a>
+						</td>
+						<td>
+							<a href="#">Xor</a>
+						</td>
+						<td>D</td>
+						<td>
+							<a href="#" class="numbers">4</a>
+						</td>
+						<td>
+							<a href="#" class="numbers">5</a>
+						</td>
+						<td>
+							<a href="#" class="numbers">6</a>
+						</td>
+						<td>
+							<a href="#">*</a>
+						</td>
+						<td>
+							<a href="#" class="current">1/x</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">Lsh</a>
+						</td>
+						<td>
+							<a href="#">Rsh</a>
+						</td>
+						<td>E</td>
+						<td>
+							<a href="#" class="numbers">1</a>
+						</td>
+						<td>
+							<a href="#" class="numbers">2</a>
+						</td>
+						<td>
+							<a href="#"class="numbers">3</a>
+						</td>
+						<td>
+							<a href="#">-</a>
+						</td>
+						<td rowspan=2>
+							<a href="#" class="equal">=</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">Not</a>
+						</td>
+						<td>	
+							<a href="#">And</a>
+						</td>
+						<td>F</td>
+						<td colspan=2>
+							<a href="#" class="zero numbers">0</a>
+						</td>
+						<td>
+							<a href="#" class="current">.</a>
+						</td>
+						<td>
+							<a href="#">+</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
